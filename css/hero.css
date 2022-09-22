@@ -1,0 +1,77 @@
+body{
+	margin: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
+
+}
+
+header{
+	background-color: lightpink;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+header h1{
+	color: white;
+	font-size: 50px;
+}
+
+header img{
+	border-radius: 170px;
+	width: 300px;
+	border: 20px solid white;
+}
+
+h1, h2{
+	font-family: "Give You Glory", cursive;
+	
+}
+
+h2{
+	font-size: 40px;
+	color: deeppink;
+	margin: 40px 0 10px;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding:  20px;
+}
+
+main img{
+	max-width: 800px;
+}
+
+a{
+	color: deeppink;
+}
+
+a:hover{
+	color: indigo;
+}
+
+footer{
+	background-color: lightpink;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: white;
+}
+
+p.caption{
+	color: gray;
+	font-size: 18px;
+	font-style: italic;
+	margin-top: 0;
+}
