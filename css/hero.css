@@ -9,10 +9,12 @@ main{
 	max-width: 1000px;
 	margin: 0 auto;
 	padding:  20px;
+	border-style: ;
 }
 
 main img{
 	max-width: 1000px;
+	border-radius: 25px;
 }
 
 .center{
@@ -33,40 +35,36 @@ p.caption{
 /* header styles */
 
 header{
-	background-color: lightpink;
 	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 80px;
+	padding-bottom: 120px;
+	background-color: lightpink;
 }
 
-.picture-container{
-	position: relative;
-	background-color: lightgray;
-	width: 300px;
-}
-
-.picture-container .polaroid{
-	position: absolute;
-	border: 1px solid darkgray;
-	background-color: white;
-	padding: 15px 15px 60px 15px;
-	box-shadow: 5px 10px 10px darkgray;
-}
-
-header img{
-	width: 300px;
-	/*border: 20px solid white;
-	box-shadow: 10px 10px 2px 0 #e4a3ad;
-	border-radius: 170px;*/
+header h1.overlay{
+	text-align: center;
+	color: deeppink;
+	font-size: 45px;
+	margin-top: -60px;
+	margin-left: 60px;
+	transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
 }
 
 h1, h2{
 	font-family: "Give You Glory", cursive;
 }
 
-header h1{
-	color: white;
-	font-size: 50px;
+header img{
+	width: 300px;
+	background-color: white;
+	padding: 15px 15px 80px 15px;
+	box-shadow: 0 0 0 1px lightgray,
+				5px 10px 10px #e4a3ad;
+	transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
 }
 
 h2{
@@ -101,4 +99,3 @@ footer p{
 footer a{
 	color: white;
 }
-
